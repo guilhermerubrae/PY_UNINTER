@@ -60,3 +60,4 @@
 # print('total de pessoas {}'.format(total))
 # print('total arrecadado {}'.format(dinheiro))
 # print('media arrecadada {}'.format(media))
+
