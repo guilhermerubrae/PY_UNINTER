@@ -1,4 +1,26 @@
+# Código 9 Calculadora Simples e Cálculo de Consumo de Energia:
+print('CALCULADORA')
+x = float(input('Digite o valor: '))
+y = float(input('Digite o valor: '))
+operacao = input('Digite a operação desejada (adição, subtração, multiplicação, divisão): ')
 
+if operacao == 'adição':
+    resultado = y + x
+    print('O resultado deu:{}'.format(resultado))
+elif operacao == 'subtração':
+    resultado = y - x
+    print('O resultado deu:{}'.format(resultado))
+elif operacao == 'divisão':
+    resultado = y / x
+    print('O resultado deu:{}'.format(resultado))
+elif operacao == 'multiplicação':
+    resultado = y * x
+    print('O resultado deu:{}'.format(resultado))
+else:
+    print('Operação inválida. Por favor, escolha uma operação válida.')
+print('Encerrando')
+
+9
 kWh = float(input('Digite a quantidade de kWh: '))
 print('Tipos de instalações: R, I, C')
 instalação = input('Digite o tipo de instalação: ')
