@@ -1,3 +1,6 @@
+#Gerenciamento de Livros - Guilherme Abreu do Nascimento
+#Aula Prática
+
 print('|' + '-' * 68 + '|')
 print("|Bem-vindo ao Gerenciamento de Livros - Guilherme Abreu do Nascimento|")
 print('|' + '-' * 68 + '|')
@@ -30,7 +33,8 @@ def consultar_livro():
         print("1. Consultar Todos")
         print("2. Consultar por Id")
         print("3. Consultar por Autor")
-        print("4. Retornar ao menu")
+        print("4. Consultar por Setor (Editora)")
+        print("5. Retornar ao menu")
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
@@ -65,6 +69,15 @@ def consultar_livro():
                     print("Autor:", livro["autor"])
                     print("Editora:", livro["editora"])
         elif opcao == "4":
+            print('-' * 68)
+            editora_busca = input("Digite a editora a ser pesquisada: ")
+            for livro in lista_livro:
+                if livro["editora"] == editora_busca:
+                    print("ID:", livro["id"])
+                    print("Nome:", livro["nome"])
+                    print("Autor:", livro["autor"])
+                    print("Editora:", livro["editora"])
+        elif opcao == "5":
             break
         else:
             print("Opção inválida")

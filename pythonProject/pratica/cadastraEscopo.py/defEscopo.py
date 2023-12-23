@@ -1,4 +1,4 @@
-#5
+#5 ESCOPO LOCAL
 
 # def realce(text):
 # foi criado um pamtr recebe texto e após esse texto recebi uma propriedade len que irá ajustar o tam

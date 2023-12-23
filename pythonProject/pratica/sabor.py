@@ -1,3 +1,6 @@
+#Venda de Produtos com Controle de Sabor, Tamanho e Total
+#Aula Prática
+
 print('Bem-vindo a loja do Guilherme Abreu do Nascimento')
 precos = {
     'CP': {'P': 10, 'M': 15, 'G': 19},
